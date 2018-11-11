@@ -48,6 +48,6 @@ app.use('/img', imagenesRoutes);
 app.use('/', appRoutes);
 
 // Escuchar peticiones
-app.listen(3001, () => {
+app.listen(3002, () => {
     console.log('Express server puerto 3000: \x1b[32m%s\x1b[0m', 'online');
 });
